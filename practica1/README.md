@@ -1,6 +1,6 @@
 Práctica 1: Testing con Particiones de Equivalencia
 
-Esta práctica contiene la implementación y pruebas unitarias de dos funciones: clasificar_temperatura y clasificar_calificacion. Se aplicó la técnica de Particiones de Equivalencia (PE) para garantizar la cobertura de distintos escenarios de entrada.
+Esta práctica contiene la implementación y pruebas unitarias de dos funciones: clasificar\_temperatura y clasificar\_calificacion. Se aplicó la técnica de Particiones de Equivalencia (PE) para garantizar la cobertura de distintos escenarios de entrada.
 
 Estructura del Proyecto
 src/: Contiene la implementación de las funciones.
@@ -18,6 +18,7 @@ Se definieron particiones válidas e inválidas considerando:
 Rangos permitidos
 Valores fuera del dominio (-273 a 10000)
 Tipos de datos no numéricos
+
 
 
 Problema 2: Clasificación de Calificación
@@ -38,9 +39,10 @@ Ejecución de Pruebas
 Para ejecutar las pruebas:
 pytest -v
 Ejemplo de salida:
-tests/test_calcular_temperatura.py::test_temp_frio PASSED
-tests/test_calcular_temperatura.py::test_temp_templado PASSED
-tests/test_clasificar_calificacion.py::test_calif_aprobado PASSED
+tests/test\_calcular\_temperatura.py::test\_temp\_frio PASSED
+tests/test\_calcular\_temperatura.py::test\_temp\_templado PASSED
+tests/test\_clasificar\_calificacion.py::test\_calif\_aprobado PASSED
+
 
 
 Tecnologías
@@ -51,10 +53,11 @@ Miniconda
 
 Configuración del Entorno
 Crear entorno:
-conda create --prefix  TSP 
+conda create -n TPS python
 
 Activar entorno:
 conda activate TSP
 
 Instalar dependencias:
 pip install pytest
+
